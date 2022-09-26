@@ -1,0 +1,7 @@
+lado = input("Informe a medida do lado da sala: ");// sempre maior que zero
+if (lado > 0) then
+    area = lado * lado;
+    printf("A área da sala é : %f", area);
+else
+    printf("O valor informado é inválido!");
+end 
